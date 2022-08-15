@@ -8,7 +8,12 @@ The scripts are currently hard-coded to use Jetson NX as the target.
 The scripts are for the ``32.5.0`` (``Jetpack 4.5``) release. To change the version, make changes to the ``downloadfilenames`` file.
 
 CAUTION: These scripts are only known to be good and run on a bare-metal Ubuntu 18.04 system. A virtual machine or other distribution is not recommended and may lead to unexpected behavior and "brick" your board.
+## Install Prerequisites
 
+```shell
+sudo apt-get update
+sudo apt-get install device-tree-compiler qemu-user-static
+```	
 ## Downloading Packages and preparing for use
 
 Run
