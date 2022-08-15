@@ -26,8 +26,14 @@ Run
 
 Put your device in recovery mode, then run
 
+To flash Jetson NX with SD card
 ```shell
-./flashing-and-booting.sh
+./flashing-and-booting.sh -t SD
+```
+
+To flash Jetson NX with EMMC memory
+```shell
+./flashing-and-booting.sh -t EMMC
 ```
 
 Verify your device boots successfully
