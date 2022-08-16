@@ -1,7 +1,6 @@
 #!/bin/bash
 
 SCRIPT_PATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
-PROG_NAME=$(basename $0)
 CERT_DIR="certs"
 PRIV_KEY_NAME="tegra194-evo-priv.pem"
 PUB_KEY_NAME="tegra194-evo-pub.pem"
